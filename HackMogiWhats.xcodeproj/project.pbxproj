@@ -7,21 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A2C1583D2206F9370040926F /* chat.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = A2C1583C2206F9370040926F /* chat.mp4 */; };
 		A2CAEE8B2206360200D69B9F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2CAEE8A2206360200D69B9F /* AppDelegate.swift */; };
-		A2CAEE8D2206360200D69B9F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2CAEE8C2206360200D69B9F /* ViewController.swift */; };
 		A2CAEE902206360200D69B9F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2CAEE8E2206360200D69B9F /* Main.storyboard */; };
 		A2CAEE922206360400D69B9F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2CAEE912206360400D69B9F /* Assets.xcassets */; };
 		A2CAEE952206360400D69B9F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2CAEE932206360400D69B9F /* LaunchScreen.storyboard */; };
+		A2CAEE9D2206372B00D69B9F /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2CAEE9C2206372B00D69B9F /* MapViewController.swift */; };
+		A2CAEE9F2206379D00D69B9F /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2CAEE9E2206379D00D69B9F /* ChatViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A2C1583C2206F9370040926F /* chat.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = chat.mp4; sourceTree = "<group>"; };
 		A2CAEE872206360200D69B9F /* HackMogiWhats.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HackMogiWhats.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2CAEE8A2206360200D69B9F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A2CAEE8C2206360200D69B9F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A2CAEE8F2206360200D69B9F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A2CAEE912206360400D69B9F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A2CAEE942206360400D69B9F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A2CAEE962206360400D69B9F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2CAEE9C2206372B00D69B9F /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		A2CAEE9E2206379D00D69B9F /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,9 +58,11 @@
 		A2CAEE892206360200D69B9F /* HackMogiWhats */ = {
 			isa = PBXGroup;
 			children = (
-				A2CAEE8A2206360200D69B9F /* AppDelegate.swift */,
-				A2CAEE8C2206360200D69B9F /* ViewController.swift */,
+				A2C1583C2206F9370040926F /* chat.mp4 */,
+				A2CAEE9E2206379D00D69B9F /* ChatViewController.swift */,
+				A2CAEE9C2206372B00D69B9F /* MapViewController.swift */,
 				A2CAEE8E2206360200D69B9F /* Main.storyboard */,
+				A2CAEE8A2206360200D69B9F /* AppDelegate.swift */,
 				A2CAEE912206360400D69B9F /* Assets.xcassets */,
 				A2CAEE932206360400D69B9F /* LaunchScreen.storyboard */,
 				A2CAEE962206360400D69B9F /* Info.plist */,
@@ -125,6 +131,7 @@
 				A2CAEE952206360400D69B9F /* LaunchScreen.storyboard in Resources */,
 				A2CAEE922206360400D69B9F /* Assets.xcassets in Resources */,
 				A2CAEE902206360200D69B9F /* Main.storyboard in Resources */,
+				A2C1583D2206F9370040926F /* chat.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,7 +142,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A2CAEE8D2206360200D69B9F /* ViewController.swift in Sources */,
+				A2CAEE9D2206372B00D69B9F /* MapViewController.swift in Sources */,
+				A2CAEE9F2206379D00D69B9F /* ChatViewController.swift in Sources */,
 				A2CAEE8B2206360200D69B9F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
